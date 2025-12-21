@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bq8tnn20ex8u2"]
+
+[ext_resource type="Texture2D" uid="uid://bu54dkmjfowlc" path="res://Ship.png" id="1_wtcfe"]
+
+[node name="Player" type="Node2D"]
+
+[node name="Ship" type="Sprite2D" parent="."]
+position = Vector2(55, 42)
+scale = Vector2(1.5625, 1.5625)
+texture = ExtResource("1_wtcfe")

@@ -1,0 +1,67 @@
+[gd_scene load_steps=9 format=3 uid="uid://dvcuuap1cl51t"]
+
+[ext_resource type="Texture2D" uid="uid://camiybj0ehve6" path="res://Graphics/bg2.jpg" id="1_6phgx"]
+[ext_resource type="Script" uid="uid://dxpubhry403yo" path="res://Scenes/level.gd" id="1_81xng"]
+[ext_resource type="PackedScene" uid="uid://byipyj5xho7o5" path="res://Scenes/player.tscn" id="1_tumq0"]
+[ext_resource type="PackedScene" uid="uid://bk653i34ofag8" path="res://Scenes/meteor.tscn" id="2_81xng"]
+[ext_resource type="Script" uid="uid://eniifl4glcs2" path="res://Scenes/timer2.gd" id="5_wqkje"]
+[ext_resource type="Script" uid="uid://c8km0ocww41xw" path="res://Scenes/laser_timer.gd" id="6_0f350"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_81xng"]
+size = Vector2(106, 616)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wqkje"]
+size = Vector2(800, 74)
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_81xng")
+
+[node name="BG" type="Sprite2D" parent="."]
+position = Vector2(411, 512)
+rotation = 1.5708
+scale = Vector2(0.97986, 1.66853)
+texture = ExtResource("1_6phgx")
+
+[node name="Player" parent="." instance=ExtResource("1_tumq0")]
+position = Vector2(328, 411)
+collision_mask = 6
+
+[node name="Meteor" parent="." instance=ExtResource("2_81xng")]
+position = Vector2(173, 79)
+
+[node name="Borders" type="Node2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Borders"]
+collision_layer = 4
+
+[node name="left" type="CollisionShape2D" parent="Borders/StaticBody2D"]
+position = Vector2(-53, 308)
+shape = SubResource("RectangleShape2D_81xng")
+
+[node name="right" type="CollisionShape2D" parent="Borders/StaticBody2D"]
+position = Vector2(853, 308)
+shape = SubResource("RectangleShape2D_81xng")
+
+[node name="top" type="CollisionShape2D" parent="Borders/StaticBody2D"]
+position = Vector2(400, -37)
+shape = SubResource("RectangleShape2D_wqkje")
+
+[node name="bottom" type="CollisionShape2D" parent="Borders/StaticBody2D"]
+position = Vector2(400, 509)
+shape = SubResource("RectangleShape2D_wqkje")
+
+[node name="Meteor_timer" type="Timer" parent="."]
+autostart = true
+script = ExtResource("5_wqkje")
+
+[node name="Meteors" type="Node2D" parent="."]
+
+[node name="Lasers" type="Node2D" parent="."]
+
+[node name="Laser_timer" type="Timer" parent="."]
+wait_time = 0.5
+script = ExtResource("6_0f350")
+
+[connection signal="laser" from="Player" to="." method="_on_player_laser"]
+[connection signal="timeout" from="Meteor_timer" to="." method="_on_meteor_timer_timeout"]
+[connection signal="timeout" from="Laser_timer" to="." method="_on_laser_timer_timeout"]

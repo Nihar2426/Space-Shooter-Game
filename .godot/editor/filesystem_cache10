@@ -1,24 +1,26 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1766336948
+::res://::1766387737
 BG.webp::CompressedTexture2D/CompressedTexture2D::5469732983289823503::1766326233::1766327412::1::::<><><>0<>0<>80fe9d6d325e8a2925bf9f26078d6ba2<>res://.godot/imported/BG.webp-32def7e9fe122642596bf7a0c25b0bbd.ctex::
-export_presets.cfg::TextFile::-1::1766326233::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1766387508::0::1::::<><><>0<>0<><>::
 final_score.gd::GDScript/GDScript::7799089139627088459::1766326233::0::1::::<>Label<><>0<>0<><>::
-Game over.tscn::PackedScene::1487149058164436133::1766336948::0::1::::<><><>0<>0<><>::uid://c0ta2f5gaja5x::::res://game_over.gd<>uid://cdto38k3ui8vs::::res://Graphics/Game over.webp<>uid://6fg3hnx38n0p::::res://Fonts/SuperBrigade-xRoW0.otf<>uid://bvgeoyau254vj::::res://Fonts/SuperBrigadeLaser-j9V2l.otf<>uid://dcxelcwl5ev8u::::res://Music/Game Over.wav
-game_over.gd::GDScript::6566834161333430171::1766334386::0::1::::<>Node2D<><>0<>0<><>::
+Game over.tscn::PackedScene::1487149058164436133::1766387693::0::1::::<><><>0<>0<><>::uid://c0ta2f5gaja5x::::res://game_over.gd<>uid://cdto38k3ui8vs::::res://Graphics/Game over.webp<>uid://6fg3hnx38n0p::::res://Fonts/SuperBrigade-xRoW0.otf<>uid://bvgeoyau254vj::::res://Fonts/SuperBrigadeLaser-j9V2l.otf<>uid://dcxelcwl5ev8u::::res://Music/Game Over.wav
+game_over.gd::GDScript/GDScript::6566834161333430171::1766334386::0::1::::<>Node2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::8377881814343686418::1766326233::1766327411::1::::<><><>0<>0<>4345f44fcb63c3a5e666c3c00ea9c1d1<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 Initial code.JPG::CompressedTexture2D/CompressedTexture2D::878171141881348422::1766326233::1766327412::1::::<><><>0<>0<>f24c26a4fcd9068b5edd5743acc03586<>res://.godot/imported/Initial code.JPG-86e91df0d5fc42558dc7fb25d6031150.ctex::
-laser.gd::GDScript::7973866897709639436::1766336711::0::1::::<>Area2D<><>0<>0<><>::
-laser.tscn::PackedScene::7825606638141800857::1766336948::0::1::::<><><>0<>0<><>::uid://dluuom1css7xo::::res://laser.gd<>uid://bemell3letyf8::::res://Graphics/Laser.png<>uid://csfblq74nmkpp::::res://Music/Laser.wav<>uid://cs3ckxy6xdiiy::::res://Music/hit sound.wav
-level.tscn::PackedScene::8638606603076057847::1766336948::0::1::::<><><>0<>0<><>::uid://dxpubhry403yo::::res://Scenes/level.gd<>uid://byipyj5xho7o5::::res://Scenes/player.tscn<>uid://camiybj0ehve6::::res://Graphics/bg2.jpg<>uid://b6mk1gx48ibsn::::res://Graphics/Animations/Star/Sprite-0002.png<>uid://b8er1iyxgc7y3::::res://Graphics/Animations/Star/Sprite-0003.png<>uid://xdjxniel1hjw::::res://Graphics/Animations/Star/Sprite-0004.png<>uid://eniifl4glcs2::::res://Scenes/timer2.gd<>uid://b76s4iihqtab4::::res://Graphics/Animations/Star/Sprite-0005.png<>uid://bg51j8iuifa41::::res://Graphics/Animations/Star/Sprite-0006.png<>uid://do72xxsm3mod5::::res://Graphics/Animations/Star/Sprite-0007.png<>uid://bo20ngdmkf0p4::::res://Graphics/Animations/Star/Sprite-0008.png<>uid://dgdfcd8fl8xde::::res://Graphics/Animations/Star/Sprite-0009.png<>uid://muof47xfr3lf::::res://Graphics/Animations/Star/Sprite-0010.png<>uid://jxo6cvudj42u::::res://Graphics/Animations/Star/Sprite-0011.png<>uid://bck7nralic5qo::::res://Fonts/SuperBrigadeItalic-G3Kxm.otf<>uid://b4ki67jv4jotm::::res://ui.tscn<>uid://c3muqobnuhn4q::::res://Music/Synth 2 FN.wav<>uid://gaa3rdcpdssm::::res://Music/Hit.mp3
+laser.gd::GDScript/GDScript::7973866897709639436::1766336711::0::1::::<>Area2D<><>0<>0<><>::
+laser.tscn::PackedScene::7825606638141800857::1766387693::0::1::::<><><>0<>0<><>::uid://dluuom1css7xo::::res://laser.gd<>uid://bemell3letyf8::::res://Graphics/Laser.png<>uid://csfblq74nmkpp::::res://Music/Laser.wav<>uid://cs3ckxy6xdiiy::::res://Music/hit sound.wav
+level.tscn::PackedScene::8638606603076057847::1766387693::0::1::::<><><>0<>0<><>::uid://dxpubhry403yo::::res://Scenes/level.gd<>uid://byipyj5xho7o5::::res://Scenes/player.tscn<>uid://camiybj0ehve6::::res://Graphics/bg2.jpg<>uid://b6mk1gx48ibsn::::res://Graphics/Animations/Star/Sprite-0002.png<>uid://b8er1iyxgc7y3::::res://Graphics/Animations/Star/Sprite-0003.png<>uid://xdjxniel1hjw::::res://Graphics/Animations/Star/Sprite-0004.png<>uid://eniifl4glcs2::::res://Scenes/timer2.gd<>uid://b76s4iihqtab4::::res://Graphics/Animations/Star/Sprite-0005.png<>uid://bg51j8iuifa41::::res://Graphics/Animations/Star/Sprite-0006.png<>uid://do72xxsm3mod5::::res://Graphics/Animations/Star/Sprite-0007.png<>uid://bo20ngdmkf0p4::::res://Graphics/Animations/Star/Sprite-0008.png<>uid://dgdfcd8fl8xde::::res://Graphics/Animations/Star/Sprite-0009.png<>uid://muof47xfr3lf::::res://Graphics/Animations/Star/Sprite-0010.png<>uid://jxo6cvudj42u::::res://Graphics/Animations/Star/Sprite-0011.png<>uid://bck7nralic5qo::::res://Fonts/SuperBrigadeItalic-G3Kxm.otf<>uid://b4ki67jv4jotm::::res://ui.tscn<>uid://c3muqobnuhn4q::::res://Music/Synth 2 FN.wav<>uid://gaa3rdcpdssm::::res://Music/Hit.mp3
 meteor_1.gd::GDScript/GDScript::2107312613902870054::1766326233::0::1::::<>Area2D<><>0<>0<><>::
 meteor_1.tscn::PackedScene/PackedScene::7903368030773543135::1766326233::0::1::::<><><>0<>0<><>::uid://5a2epjwvlpni::::res://meteor_1.gd<>uid://c3wjoph0xeibw::::res://Graphics/Meteor_01.png
 meteor_2.gd::GDScript/GDScript::793588345512446382::1766326233::0::1::::<>Area2D<><>0<>0<><>::
 meteor_2.tscn::PackedScene/PackedScene::7014106092685557715::1766326233::0::1::::<><><>0<>0<><>::uid://lkojwoq6guuw::::res://meteor_2.gd<>uid://c08t6htd81543::::res://Graphics/Meteor_02.png
 node_2d.tscn::PackedScene/PackedScene::3578744211624363167::1766326233::0::1::::<><><>0<>0<><>::uid://bu54dkmjfowlc::::res://Ship.png
-README.md::TextFile/TextFile::-1::1766326233::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1766383422::0::1::::<><><>0<>0<><>::
+Ship svg.svg::CompressedTexture2D::5351044374539821898::1766387737::1766387739::1::::<><><>0<>0<>7543eb2bdc6ec968ccb642b9ded0d864<>res://.godot/imported/Ship svg.svg-b55e88f6243f2cc377463d9eaf9fe388.ctex::
 Ship.png::CompressedTexture2D/CompressedTexture2D::3853895583434815152::1766326233::1766327411::1::::<><><>0<>0<>973abcac3ea6826bceabab06135a3ef9<>res://.godot/imported/Ship.png-5c093b8dbd5927776a227b60e1b26f17.ctex::
-ui.gd::GDScript::315646090661496691::1766326233::0::1::::<>CanvasLayer<><>0<>0<><>::
-ui.tscn::PackedScene::4443083717933534018::1766336948::0::1::::<><><>0<>0<><>::uid://eq5v6u7lvk40::::res://ui.gd<>uid://6fg3hnx38n0p::::res://Fonts/SuperBrigade-xRoW0.otf
+ShipIcon.ico::OtherFile::-1::1766387269::0::1::::<><><>0<>0<><>::
+ui.gd::GDScript/GDScript::315646090661496691::1766326233::0::1::::<>CanvasLayer<><>0<>0<><>::
+ui.tscn::PackedScene::4443083717933534018::1766387693::0::1::::<><><>0<>0<><>::uid://eq5v6u7lvk40::::res://ui.gd<>uid://6fg3hnx38n0p::::res://Fonts/SuperBrigade-xRoW0.otf
 ::res://Fonts/::1766327411
 info.txt::TextFile/TextFile::-1::1766326233::0::1::::<><><>0<>0<><>::
 SuperBrigade3D-pg3Pa.otf::FontFile/FontFile::7633155501017194029::1766326233::1766327411::1::::<><><>0<>0<>f826e4c2d349877761b4b86b0a3b475a<>res://.godot/imported/SuperBrigade3D-pg3Pa.otf-510db4474595ac5d5977ab15c9fc7ff7.fontdata::
@@ -41,7 +43,7 @@ SuperBrigadeTitle-nALOR.otf::FontFile/FontFile::5442712204291168701::1766326233:
 superbrigade-e69c.txt::TextFile/TextFile::-1::1766326233::0::1::::<><><>0<>0<><>::
 superbrigade-f3dd.txt::TextFile/TextFile::-1::1766326233::0::1::::<><><>0<>0<><>::
 ::res://global/::1766326233
-global.gd::GDScript::1145696120367978335::1766326233::0::1::::<>Node<><>0<>0<><>::
+global.gd::GDScript/GDScript::1145696120367978335::1766326233::0::1::::<>Node<><>0<>0<><>::
 ::res://Graphics/::1766327412
 bg2.jpg::CompressedTexture2D/CompressedTexture2D::4798142562998889043::1766326233::1766327412::1::::<><><>0<>0<>b090fc680e144308e6d6c6c7378e649d<>res://.godot/imported/bg2.jpg-0ce8a718f456676b1c066dea7552110a.ctex::
 BG.webp::CompressedTexture2D/CompressedTexture2D::6861243283548240463::1766326233::1766327411::1::::<><><>0<>0<>22affa7827bd72b69601e43b6087e259<>res://.godot/imported/BG.webp-1e9639490f98f54b60872cd0d5cb6aa1.ctex::
@@ -69,26 +71,26 @@ Sprite-0010.png::CompressedTexture2D/CompressedTexture2D::884414219269131939::17
 Sprite-0011.png::CompressedTexture2D/CompressedTexture2D::680085816996147286::1766326233::1766327411::1::::<><><>0<>0<>49757558f0879d43ae721fe3736331b6<>res://.godot/imported/Sprite-0011.png-41de819e787d3b095819157e555a441e.ctex::
 SuperBrigade-xRoW0.otf::FontFile/FontFile::9223093952304991016::1766326233::1766327411::1::::<><><>0<>0<>92c2916e1d200aa7120890dfb87e520a<>res://.godot/imported/SuperBrigade-xRoW0.otf-2341ca53a760474031647c17b78bc826.fontdata::
 ::res://Graphics/art/::1766326233
-::res://Music/::1766334990
-drum a.wav::AudioStreamWAV::547000492534996820::1766331494::1766332173::1::::<><><>0<>0<>e3cb8b5a89d15f7fd3c9fae30ce57d52<>res://.godot/imported/drum a.wav-7df548ebe582c584a9196ae23040ad9b.sample::
-Game Over.wav::AudioStreamWAV::7347383077975222314::1766334299::1766334311::1::::<><><>0<>0<>1749948eb9d5a5b93720ec5e5d5a7673<>res://.godot/imported/Game Over.wav-0401d62b41c2d1abd7cd59597777e995.sample::
-hit sound.wav::AudioStreamWAV::6094183668460761264::1766332153::1766332173::1::::<><><>0<>0<>1741d7abbfdbb3dbc4b231524b1fd0d1<>res://.godot/imported/hit sound.wav-f9c49986317881e710566488fc0524dd.sample::
-Hit.mp3::AudioStreamMP3::421183961699952320::1766334920::1766334990::1::::<><><>0<>0<>a6057b0a1fc43b71ff2883e5d3cdf956<>res://.godot/imported/Hit.mp3-bf1b2de3e8908525e665dfa8d476cb84.mp3str::
-Laser.wav::AudioStreamWAV::6046643693509631237::1766332658::1766332661::1::::<><><>0<>0<>c9be30931b072ec6573c406af4ed5442<>res://.godot/imported/Laser.wav-752e2a148888d35aba705038739fc6cc.sample::
-Synth 2 a.wav::AudioStreamWAV::1798282443556660430::1766330882::1766330961::1::::<><><>0<>0<>b38256ec3687a023dd7d8ef4a9e68847<>res://.godot/imported/Synth 2 a.wav-3720fddb9e630c0659b0914fb6625284.sample::
-Synth 2 b.wav::AudioStreamWAV::5379086293309084579::1766330789::1766330961::1::::<><><>0<>0<>ff7335b7798ff9053fe9927537da9678<>res://.godot/imported/Synth 2 b.wav-9e32c332407c3d5a6ae081f9596a844e.sample::
-Synth 2 c.wav::AudioStreamWAV::5955243661981160237::1766331045::1766331050::1::::<><><>0<>0<>09f8348e8087d83fcccbf6070b8a2173<>res://.godot/imported/Synth 2 c.wav-600dd39601e8713e8f20eedf71f47639.sample::
-Synth 2 FN.wav::AudioStreamWAV::6764145172347018614::1766333449::1766337126::1::::<><><>0<>0<>e217502cbde6687bea8fd7458e935d67<>res://.godot/imported/Synth 2 FN.wav-2667755ed686a509c4b9a361bff28bfc.sample::
-Synth 2.wav::AudioStreamWAV::5373154275174026280::1766330656::1766330961::1::::<><><>0<>0<>510a13cf79343d7450385b94057e64d5<>res://.godot/imported/Synth 2.wav-8726506f24881ef0cd25bc4ab371f31d.sample::
-Synth.wav::AudioStreamWAV::7811540693274275216::1766329193::1766329511::1::::<><><>0<>0<>c2db6642608d554e7543a2ee395ef147<>res://.godot/imported/Synth.wav-c2f4dbe151640bb0fa0b9197542d3281.sample::
-::res://Scenes/::1766336948
+::res://Music/::1766337126
+drum a.wav::AudioStreamWAV/AudioStreamWAV::547000492534996820::1766331494::1766332173::1::::<><><>0<>0<>e3cb8b5a89d15f7fd3c9fae30ce57d52<>res://.godot/imported/drum a.wav-7df548ebe582c584a9196ae23040ad9b.sample::
+Game Over.wav::AudioStreamWAV/AudioStreamWAV::7347383077975222314::1766334299::1766334311::1::::<><><>0<>0<>1749948eb9d5a5b93720ec5e5d5a7673<>res://.godot/imported/Game Over.wav-0401d62b41c2d1abd7cd59597777e995.sample::
+hit sound.wav::AudioStreamWAV/AudioStreamWAV::6094183668460761264::1766332153::1766332173::1::::<><><>0<>0<>1741d7abbfdbb3dbc4b231524b1fd0d1<>res://.godot/imported/hit sound.wav-f9c49986317881e710566488fc0524dd.sample::
+Hit.mp3::AudioStreamMP3/AudioStreamMP3::421183961699952320::1766334920::1766334990::1::::<><><>0<>0<>a6057b0a1fc43b71ff2883e5d3cdf956<>res://.godot/imported/Hit.mp3-bf1b2de3e8908525e665dfa8d476cb84.mp3str::
+Laser.wav::AudioStreamWAV/AudioStreamWAV::6046643693509631237::1766332658::1766332661::1::::<><><>0<>0<>c9be30931b072ec6573c406af4ed5442<>res://.godot/imported/Laser.wav-752e2a148888d35aba705038739fc6cc.sample::
+Synth 2 a.wav::AudioStreamWAV/AudioStreamWAV::1798282443556660430::1766330882::1766330961::1::::<><><>0<>0<>b38256ec3687a023dd7d8ef4a9e68847<>res://.godot/imported/Synth 2 a.wav-3720fddb9e630c0659b0914fb6625284.sample::
+Synth 2 b.wav::AudioStreamWAV/AudioStreamWAV::5379086293309084579::1766330789::1766330961::1::::<><><>0<>0<>ff7335b7798ff9053fe9927537da9678<>res://.godot/imported/Synth 2 b.wav-9e32c332407c3d5a6ae081f9596a844e.sample::
+Synth 2 c.wav::AudioStreamWAV/AudioStreamWAV::5955243661981160237::1766331045::1766331050::1::::<><><>0<>0<>09f8348e8087d83fcccbf6070b8a2173<>res://.godot/imported/Synth 2 c.wav-600dd39601e8713e8f20eedf71f47639.sample::
+Synth 2 FN.wav::AudioStreamWAV/AudioStreamWAV::6764145172347018614::1766333449::1766337126::1::::<><><>0<>0<>e217502cbde6687bea8fd7458e935d67<>res://.godot/imported/Synth 2 FN.wav-2667755ed686a509c4b9a361bff28bfc.sample::
+Synth 2.wav::AudioStreamWAV/AudioStreamWAV::5373154275174026280::1766330656::1766330961::1::::<><><>0<>0<>510a13cf79343d7450385b94057e64d5<>res://.godot/imported/Synth 2.wav-8726506f24881ef0cd25bc4ab371f31d.sample::
+Synth.wav::AudioStreamWAV/AudioStreamWAV::7811540693274275216::1766329193::1766329511::1::::<><><>0<>0<>c2db6642608d554e7543a2ee395ef147<>res://.godot/imported/Synth.wav-c2f4dbe151640bb0fa0b9197542d3281.sample::
+::res://Scenes/::1766387693
 lasers.gd::GDScript/GDScript::5373556405281494758::1766326233::0::1::::<>RefCounted<><>0<>0<><>::
 laser_timer.gd::GDScript/GDScript::7110490973189348756::1766326233::0::1::::<>Timer<><>0<>0<><>::
-level.gd::GDScript::8805787641769524614::1766336169::0::1::::<>Node2D<><>0<>0<><>::
+level.gd::GDScript/GDScript::8805787641769524614::1766337206::0::1::::<>Node2D<><>0<>0<><>::
 level.tscn::PackedScene/PackedScene::8638606603076057847::1766326233::0::1::::<><><>0<>0<><>::uid://camiybj0ehve6::::res://Graphics/bg2.jpg<>uid://dxpubhry403yo::::res://Scenes/level.gd<>uid://byipyj5xho7o5::::res://Scenes/player.tscn<>uid://b6mk1gx48ibsn::::res://Graphics/Animations/Star/Sprite-0002.png<>uid://b8er1iyxgc7y3::::res://Graphics/Animations/Star/Sprite-0003.png<>uid://xdjxniel1hjw::::res://Graphics/Animations/Star/Sprite-0004.png<>uid://eniifl4glcs2::::res://Scenes/timer2.gd<>uid://b76s4iihqtab4::::res://Graphics/Animations/Star/Sprite-0005.png<>uid://bg51j8iuifa41::::res://Graphics/Animations/Star/Sprite-0006.png<>uid://do72xxsm3mod5::::res://Graphics/Animations/Star/Sprite-0007.png<>uid://bo20ngdmkf0p4::::res://Graphics/Animations/Star/Sprite-0008.png<>uid://dgdfcd8fl8xde::::res://Graphics/Animations/Star/Sprite-0009.png<>uid://muof47xfr3lf::::res://Graphics/Animations/Star/Sprite-0010.png<>uid://jxo6cvudj42u::::res://Graphics/Animations/Star/Sprite-0011.png<>uid://x85n8jb7nnuj::::res://ui.tscn
-meteor.gd::GDScript::2208963474159953397::1766336247::0::1::::<>Area2D<><>0<>0<><>::
-meteor.tscn::PackedScene::3154176807239466517::1766336948::0::1::::<><><>0<>0<><>::uid://6qbknmw7qbuj::::res://Scenes/meteor.gd
-player.gd::GDScript::4073730852890208526::1766335874::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::4088422087092811578::1766336948::0::1::::<><><>0<>0<><>::uid://bybl0tjllvio1::::res://Scenes/player.gd<>uid://bu54dkmjfowlc::::res://Ship.png
-timer2.gd::GDScript::308092588583957407::1766326233::0::1::::<>Timer<><>0<>0<><>::
+meteor.gd::GDScript/GDScript::2208963474159953397::1766336247::0::1::::<>Area2D<><>0<>0<><>::
+meteor.tscn::PackedScene::3154176807239466517::1766387693::0::1::::<><><>0<>0<><>::uid://6qbknmw7qbuj::::res://Scenes/meteor.gd
+player.gd::GDScript/GDScript::4073730852890208526::1766335874::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::4088422087092811578::1766387693::0::1::::<><><>0<>0<><>::uid://bybl0tjllvio1::::res://Scenes/player.gd<>uid://bu54dkmjfowlc::::res://Ship.png
+timer2.gd::GDScript/GDScript::308092588583957407::1766326233::0::1::::<>Timer<><>0<>0<><>::
 timer.gd::GDScript/GDScript::6011082510635625280::1766326233::0::1::::<>Timer<><>0<>0<><>::

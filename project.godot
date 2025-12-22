@@ -13,7 +13,7 @@ config_version=5
 config/name="Tutorial - Space shooter"
 run/main_scene="uid://dvcuuap1cl51t"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://ciic6ionlwiuc"
 
 [autoload]
 

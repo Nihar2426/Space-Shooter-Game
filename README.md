@@ -13,8 +13,8 @@ Or simply download the game from the link below, extract the files, and run the 
 https://github.com/Nihar2426/Space-Shooter-Game/releases/download/v1.0/Space.Shooter_Planet.Defender_v1.rar
 
 Controls:
-Use arrow keys to move the ship
-Press Space to shoot laser
+Use arrow keys to move the ship,
+Press Space to shoot laser,
 Hold Shift to increase movement speed
 
 Future plans : Add a currency system, spaceship upgrade system and planet upgrade system

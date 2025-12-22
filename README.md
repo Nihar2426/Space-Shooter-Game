@@ -8,3 +8,5 @@ To play:
 5. Add the project and click on 'Run Project' or simply press F5 key
 
 executable will be made available soon
+
+Future plans : Add a currency system, spaceship upgrade system and planet upgrade system

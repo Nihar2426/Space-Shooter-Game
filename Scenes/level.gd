@@ -7,6 +7,8 @@ var health: int = 5
 var earth: int = 5
 
 func _ready() :
+	#$BgTrack.play()
+	
 	#reset score and time_elapsed
 	Global.time_elapsed = 0
 	Global.score = 0
@@ -41,6 +43,7 @@ func _on_meteor_timer_timeout() -> void:
 	meteor.connect('collision', _on_meteor_collision)
 	
 func _on_meteor_collision():
+	$ExplosionSound.play()
 	health -= 1
 	get_tree().call_group('ui','set_health',health)
 	if health <=0:
@@ -66,3 +69,7 @@ func _on_bottom_area_area_entered(area: Area2D) -> void:
 
 func _on_sc_updater_timeout() -> void:
 	$Sc.text = str(Global.score)
+
+
+#func _on_bg_track_finished() -> void:
+#	$BgTrack.play()

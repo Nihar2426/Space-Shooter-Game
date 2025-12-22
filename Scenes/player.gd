@@ -24,5 +24,6 @@ func _process(_delta: float) -> void:
 		laser.emit($Laser_start_position.global_position)
 
 
+
 func _on_p_area_area_entered(area: Area2D) -> void:
 	area.queue_free()

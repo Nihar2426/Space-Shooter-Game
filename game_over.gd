@@ -8,7 +8,8 @@ func _ready() -> void:
 #func _process(_delta: float) -> void:
 	#if Input.is_action_just_pressed("Shoot"):
 		#get_tree().change_scene_to_packed(level_scene)
-
+	$GameOverTrack.play()
+	
 func _input(event) -> void:
 	if event.is_action_pressed("Shoot"):
 		get_tree().change_scene_to_file("res://level.tscn")

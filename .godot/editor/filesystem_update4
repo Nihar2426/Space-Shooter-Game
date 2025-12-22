@@ -4,3 +4,11 @@ res://ui.tscn
 res://Game over.tscn
 res://Scenes/meteor.tscn
 res://Scenes/player.tscn
+res://game_over.gd
+res://laser.gd
+res://ui.gd
+res://global/global.gd
+res://Scenes/level.gd
+res://Scenes/meteor.gd
+res://Scenes/player.gd
+res://Scenes/timer2.gd

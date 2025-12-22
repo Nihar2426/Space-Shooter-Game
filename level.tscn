@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://dvcuuap1cl51t"]
+[gd_scene load_steps=23 format=3 uid="uid://dvcuuap1cl51t"]
 
 [ext_resource type="Script" uid="uid://dxpubhry403yo" path="res://Scenes/level.gd" id="1_81xng"]
 [ext_resource type="PackedScene" uid="uid://byipyj5xho7o5" path="res://Scenes/player.tscn" id="1_tumq0"]
@@ -16,6 +16,8 @@
 [ext_resource type="Texture2D" uid="uid://jxo6cvudj42u" path="res://Graphics/Animations/Star/Sprite-0011.png" id="12_gf56v"]
 [ext_resource type="FontFile" uid="uid://bck7nralic5qo" path="res://Fonts/SuperBrigadeItalic-G3Kxm.otf" id="15_5pxul"]
 [ext_resource type="PackedScene" uid="uid://b4ki67jv4jotm" path="res://ui.tscn" id="16_2klc5"]
+[ext_resource type="AudioStream" uid="uid://c3muqobnuhn4q" path="res://Music/Synth 2 FN.wav" id="17_fedht"]
+[ext_resource type="AudioStream" uid="uid://gaa3rdcpdssm" path="res://Music/Hit.mp3" id="18_4c15r"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_6y3s5"]
 animations = [{
@@ -225,8 +227,16 @@ theme_override_font_sizes/font_size = 25
 wait_time = 0.1
 autostart = true
 
+[node name="BgTrack" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_fedht")
+autoplay = true
+
+[node name="ExplosionSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("18_4c15r")
+
 [connection signal="laser" from="Player" to="." method="_on_player_laser"]
 [connection signal="area_entered" from="Borders/StaticBody2D/bottom_area" to="." method="_on_bottom_area_area_entered"]
 [connection signal="timeout" from="Meteor_timer" to="." method="_on_meteor_timer_timeout"]
 [connection signal="timeout" from="Laser_timer" to="." method="_on_laser_timer_timeout"]
 [connection signal="timeout" from="Sc_updater" to="." method="_on_sc_updater_timeout"]
+[connection signal="finished" from="BgTrack" to="." method="_on_bg_track_finished"]

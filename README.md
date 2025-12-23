@@ -1,9 +1,8 @@
-<H1 align ="center">**"Space-Shooter-Game"**</H1>
+<H1 align ="center"><b>Space-Shooter-Game</b></H1>
 <p align="center">
-  <p align="center">
   <img src="/Gameplay GIF.gif" alt="Gameplay GIF" width="90%"/>
 </p>
-</p>
+
 ## How to Play (From Source):
 1. Download Godot latest version from their official website- https://godotengine.org/download/windows/
 2. Clone this repository and put everything into a folder
@@ -19,7 +18,8 @@ Use arrow keys to move the ship,
 Press Space to shoot laser,
 Hold Shift to increase movement speed
 
-Future plans : Add a currency system, spaceship upgrade system and planet upgrade system
+## Future plans:
+Add a currency system, spaceship upgrade system and planet upgrade system
 
 <p align="center">
   <img src="https://img.shields.io/badge/Godot-4.4-blue?logo=godot-engine"/>

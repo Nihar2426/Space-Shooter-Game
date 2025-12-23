@@ -2,7 +2,7 @@
 <p align="center">
   <img src="/Gameplay GIF.gif" alt="Gameplay GIF" width="90%"/>
 </p>
-<h2>Defend planet Earth from relentless waves of incoming meteors in this arcade-style space shooter. You have 5 lives, and the planet can survive only 5 hits. Lose all lives—or let the planet take too much damage—and the game is over.</h2>
+<h3>Defend planet Earth from relentless waves of incoming meteors in this arcade-style space shooter. You have 5 lives, and the planet can survive only 5 hits. Lose all lives—or let the planet take too much damage—and the game is over.</h3>
 
 ## How to Play (From Source):
 1. Download Godot latest version from their official website- https://godotengine.org/download/windows/
@@ -17,8 +17,8 @@ https://github.com/Nihar2426/Space-Shooter-Game/releases/download/v1.0/Space.Sho
 
 ## Controls:
 Use arrow keys to move the ship,
-Press Space to shoot laser,
-Hold Shift to increase movement speed
+Hold Shift to increase movement speed,
+Press Space to shoot laser
 
 ## Future plans:
 Add a currency system, spaceship upgrade system and planet upgrade system

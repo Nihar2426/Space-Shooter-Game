@@ -2,6 +2,7 @@
 <p align="center">
   <img src="/Gameplay GIF.gif" alt="Gameplay GIF" width="90%"/>
 </p>
+<h2>Defend planet Earth from relentless waves of incoming meteors in this arcade-style space shooter. You have 5 lives, and the planet can survive only 5 hits. Lose all lives—or let the planet take too much damage—and the game is over.</h2>
 
 ## How to Play (From Source):
 1. Download Godot latest version from their official website- https://godotengine.org/download/windows/
@@ -10,10 +11,11 @@
 4. Navigate to the folder where you have the cloned repository
 5. Add the project and click on 'Run Project' or simply press F5 key
 
-## Or simply download the game from the link below, extract the files, and run the executable to play:
+## How to Play (by executable):
+Simply download the game from the link below, extract the files, and run the executable to play:
 https://github.com/Nihar2426/Space-Shooter-Game/releases/download/v1.0/Space.Shooter_Planet.Defender_v1.rar [For Windows]
 
-## 🕹️Controls:
+## Controls:
 Use arrow keys to move the ship,
 Press Space to shoot laser,
 Hold Shift to increase movement speed
